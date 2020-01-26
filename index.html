@@ -1,12 +1,171 @@
 <!DOCTYPE html>
 <html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Техномарт</title>
+</head>
+
+<body>
+
   <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Техномарт</title>
+
+    <div class="headerInfoShop">
+      <a href="#">Техномарт</a>
+      <form action="">
+        <input type="text" placeholder="Поиск:">
+      </form>
+      <ul>
+        <li>
+          <a href="#">Закладки: 0</a>
+        </li>
+        <li>
+          <a href="#">Корзина: 0</a>
+        </li>
+        <li>
+          <a href="#">Оформить заказ</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="headerLogIn">
+
+      <div>
+        <p>Интернет-магазин<br>
+          строительных материалов<br>
+          и инструментов для ремонта</p>
+      </div>
+
+      <div>
+        <div><span>+7 (812) 555-05-55</span></div>
+        <div>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</div>
+        <div>
+          <button type="button">Войти</button>
+          <button type="button">Регистрация</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="headerNavigation">
+      <nav>
+        <ul>
+          <li><a href="#">Главная</a></li>
+          <li><a href="#">Компания</a></li>
+          <li><a href="./pages/catalog.html">Каталог</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Спецпредложения</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
   </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+  <main>
+    <section class="mainCatalog"></section>
+    <section class="mainPopularItem"></section>
+    <section class="mainPopularBrand"></section>
+    <section class="mainServices"></section>
+    <section class="mainAbout">
 
-  </body>
+      <article class="mainAboutSlogon">
+        <h1>КОМПАНИЯ «Техномарт»</h1>
+        <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и<br>
+          строительства не оставит равнодушными любителей сэкномить на гастарбайтерах.</p>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России!<br>
+          Техномарт работает со многими транспортными компаниями: </p>
+        <ul>
+          <li>Деловые линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
+        </ul>
+        <a href="#">Подробнее о компании</a>
+      </article>
+
+      <article class="mainAboutContact">
+        <h1>контакты</h1>
+        <p>Вы можете забрать товар сами,<br>
+          заехав в наш офис:</p>
+        <img src="rnd.png" alt="google map">
+        <button type="button">Заблудились? Напишите нам!</button>
+      </article>
+
+    </section>
+  </main>
+
+  <footer>
+
+    <div class="footerNav">
+
+      <div class="footerNavTop">
+        <a href="#">Техномарт</a>
+        <ul>
+          <li>
+            <a href="#">Компания</a>
+          </li>
+          <li>
+            <a href="#">Новости</a>
+          </li>
+          <li>
+            <a href="./pages/catalog.html">Каталог</a>
+          </li>
+          <li>
+            <a href="#">Доставка</a>
+          </li>
+          <li>
+            <a href="#">Контакты</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footerNavBottom">
+        <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+          +7 (812) 555-05-55</p>
+        <ul>
+          <li>
+            <a href="#">Материалы</a>
+          </li>
+          <li>
+            <a href="#">Техника</a>
+          </li>
+          <li>
+            <a href="#">Инструмент</a>
+          </li>
+          <li>
+            <a href="#">Спецпредложения</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footerContact">
+
+      <div>
+        <p>© 2010–2019 Компания «Техномарт»<br>
+          Все права защищены</p>
+      </div>
+
+      <div>
+        <ul>
+          <li><img src="iconVK" alt="icon vk.com"></li>
+          <li><img src="iconF" alt="icon facebook.com"></li>
+          <li><img src="iconInsta" alt="icon instagrem.com"></li>
+        </ul>
+      </div>
+
+      <div>
+        <p>Обратная связь: <br><a href="#">mail@htmlacademy.ru</a></p>
+      </div>
+
+      <div>
+        <p>Разработано - <br><a href="https://htmlacademy.ru">htmlacademy.ru</a></p>
+      </div>
+
+    </div>
+
+  </footer>
+</body>
+
 </html>
